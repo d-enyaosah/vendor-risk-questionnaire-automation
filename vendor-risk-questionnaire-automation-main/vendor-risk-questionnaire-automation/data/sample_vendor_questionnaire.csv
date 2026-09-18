@@ -1,0 +1,9 @@
+control_id,domain,question,response,severity,evidence_required,evidence,owner
+AC-01,Access Control,Is MFA enforced for privileged accounts?,Yes,Critical,Yes,MFA configuration screenshot,Security
+AC-02,Access Control,Are access reviews completed quarterly?,Partial,High,Yes,,IT Operations
+DP-01,Data Protection,Is customer data encrypted at rest?,Yes,Critical,Yes,SOC 2 excerpt,Security
+DP-02,Data Protection,Are retention periods formally documented?,No,Medium,Yes,,Privacy
+IR-01,Incident Response,Is the incident response plan tested annually?,In Progress,High,Yes,2025 tabletop agenda,Security
+BC-01,Business Continuity,Is recovery testing completed annually?,Y,High,Yes,Recovery test report,Business Continuity
+VM-01,Vulnerability Management,Are critical vulnerabilities remediated within SLA?,Unclear,Critical,Yes,,Engineering
+TP-01,Third-Party Risk,Are critical subprocessors assessed?,Yes,High,No,,Procurement
