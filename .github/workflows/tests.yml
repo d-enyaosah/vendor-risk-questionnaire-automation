@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: working-directory: vendor-risk-questionnaire-automation-main/vendor-risk-questionnaire-automation
+        working-directory: vendor-risk-questionnaire-automation-main/vendor-risk-questionnaire-automation
 
     steps:
       - name: Download repository
